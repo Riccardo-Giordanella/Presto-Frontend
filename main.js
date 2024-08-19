@@ -1,6 +1,7 @@
 // Cattura elementi
 let navbar = document.querySelector('#navbar');
-let togglerNavbarBtn = document.querySelector('#togglerNavbarBtn');
+let btncollapse = document.querySelector('#btncollapse');
+let check = false; //variabile di appoggio per far ruotare il button della collapse personalizzato
 
 window.addEventListener('scroll', ()=>{
     if(window.scrollY > 0){
@@ -13,13 +14,12 @@ window.addEventListener('scroll', ()=>{
 
 })
 
-togglerNavbarBtn.addEventListener('click', ()=>{
-    let check = false;
+btncollapse.addEventListener('click', ()=>{
     if(check == false){
-        togglerNavbarBtn.style.transform = 'rotate(0deg)';
         check = true;
+        btncollapse.style.transform = 'rotate(0deg)';
     }else{
-        togglerNavbarBtn.style.transform = 'rotate(180deg)';
         check = false;
+        btncollapse.style.transform = 'rotate(180deg)';
     }
 })

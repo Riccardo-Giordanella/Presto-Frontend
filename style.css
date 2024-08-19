@@ -3,8 +3,19 @@
 :root{
     --beige: rgb(242, 232, 198);
     --lightgrey: rgb(178, 175, 157);
-    --red: rgb(152, 43, 28);
     --maroon: rgb(128, 0, 0);
+}
+
+.color-beige{
+    color: var(--beige);
+}
+
+.color-lightgrey{
+    color: var(--lightgrey);
+}
+
+.color-maroon{
+    color: var(--maroon);
 }
 
 *{
@@ -22,6 +33,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4{
 
 body{
     background-color: var(--beige);
+    margin: 0px;
 }
 
 /* End General */
@@ -46,20 +58,58 @@ body{
 .navbar a:hover{
     color: var(--maroon);
     transform: scale(1.1);
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
 }
 
 .collapse-color{
     background-color: var(--lightgrey);
 }
 
-.togglericon{
+#btncollapse{
     transform: rotate(180deg);
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 767px){
     .navbar a:hover {
-            transform: scale(1.02);
-        }
+        transform: scale(1.02);
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    #btncollapse{
+        display: none;
+    }
 }
 
 /* End Navbar */
+
+/* Index header */
+
+.header{
+    background-image: url(./media/Background_header_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1-custom{
+    text-shadow: 2px 2px 4px black, -2px -2px 4px black;
+}
+
+.btn-custom{
+    border: 2px solid var(--maroon);
+    color: var(--maroon);
+    background-color: var(--lightgrey);
+    margin: 0px 20px;
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+
+.btn-custom:hover{
+    border: 2px solid black;
+    color: var(--beige);
+    background-color: var(--maroon);
+}
+/* Index header end */
