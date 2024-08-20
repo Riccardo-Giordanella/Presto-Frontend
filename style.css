@@ -1,7 +1,7 @@
 /* CSS Generale del sito */
 
 :root{
-    --beige: rgb(242, 232, 198);
+    --beige: rgb(214, 201, 152);
     --lightgrey: rgb(178, 175, 157);
     --maroon: rgb(128, 0, 0);
 }
@@ -44,6 +44,7 @@ body{
     background-color: var(--lightgrey);
     height: 140px;
     transition: 0.5s;
+    border: 2px solid black;
 }
 
 .logo-custom{
@@ -113,3 +114,22 @@ body{
     background-color: var(--maroon);
 }
 /* Index header end */
+
+/* Index Main */
+.col-custom{
+    background: linear-gradient(var(--beige), var(--lightgrey));
+    position: relative;
+    top: -50px;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.col-custom:hover{
+    box-shadow: 0 4px 8px var(--maroon);
+    transform: scale(1.03);
+}
+
+.counter-custom{
+    font-size: 35px;
+}
+/* Index Main End */
