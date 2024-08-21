@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Manga Paradise</title>
+    <!-- Swiper CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -61,7 +63,7 @@
     <!-- Header End -->
 
     <!-- Main -->
-     <main>
+    <main>
         <!-- Section anime - manga -->
         <section class="container">
             <div class="row justify-content-evenly">
@@ -81,12 +83,12 @@
 
         <!-- Section counters -->
         <section class="container">
-            <div class="row bg-maroon color-beige">
+            <div class="row">
                 <div class="col-12 col-md-7">
                     <img src="./media/Rengoku5k.jpg" alt="Immagine di Rengoku Kyojuro personaggio di Demon Slayer" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class="mb-5 text-center">Il nostro sito in numeri</h3>
+                    <h3 class="mb-5 text-center"><strong>Il nostro sito in numeri</strong></h3>
                     <p class="h5"><span id="firstNumber" class="mx-4 counter-custom">0</span>Manga disponibili</p>
                     <p class="h5"><span id="secondNumber" class="mx-4 counter-custom">0</span>Manga venduti</p>
                     <p class="h5"><span id="thirdNumber" class="mx-4 counter-custom">0</span>Fornitori di abbonamenti Anime</p>
@@ -94,10 +96,41 @@
             </div>
         </section>
         <!-- Section counters End -->
-     </main>
-     <!-- End Main -->
+
+        <!-- Section reviews -->
+        <section class="container-fluid mt-5">
+            <div class="row justify-content-center align-items-center">
+                    <div class="col-12 mb-5">
+                        <h3 class="text-center"><strong>Cosa dicono di noi</strong></h3>
+                    </div>
+                <div class="col-12 col-md-8">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Le slide sono presenti nel main.js -->
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Section reviews End -->
+    </main>
+    <!-- End Main -->
 
 
+
+
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

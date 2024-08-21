@@ -145,3 +145,20 @@ body{
     font-size: 35px;
 }
 /* Index Main End */
+
+/* Swiper */
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardreview{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.397) 18%, rgba(255, 145, 0, 1) 100%);
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+/* Swiper End */
