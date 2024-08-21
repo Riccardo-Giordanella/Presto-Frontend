@@ -18,6 +18,18 @@
     color: var(--maroon);
 }
 
+.bg-beige{
+    background-color: var(--beige);
+}
+
+.bg-lightgrey {
+    background-color: var(--lightgrey);
+}
+
+.bg-maroon {
+    background-color: var(--maroon);
+}
+
 *{
     font-family: "Moderustic", sans-serif;
     font-optical-sizing: auto;

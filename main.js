@@ -63,4 +63,4 @@ let watcher = new IntersectionObserver( (entries)=>{
     })
 })
 
-watcher.observe(firstNumber)
+watcher.observe(firstNumber);
