@@ -56,7 +56,6 @@ body{
     background-color: var(--lightgrey);
     height: 140px;
     transition: 0.5s;
-    border: 2px solid black;
 }
 
 .logo-custom{
@@ -162,3 +161,25 @@ body{
     border-radius: 50px;
 }
 /* Swiper End */
+
+/* Footer */
+footer{
+    background: linear-gradient(var(--lightgrey), var(--beige));;
+    border: 2px solid black;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: var(--maroon);
+    transform: scale(1.1);
+    text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+.img-custom{
+    height: 250px;
+}
+/* Footer END */
