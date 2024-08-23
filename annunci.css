@@ -1,0 +1,18 @@
+:root {
+    --beige: rgb(214, 201, 152);
+    --lightgrey: rgb(178, 175, 157);
+    --maroon: rgb(128, 0, 0);
+}
+
+.navbar {
+    height: 70px;
+}
+
+.accordion-button{
+    background-color: var(--lightgrey);
+    border: 1px solid var(--lightgrey);
+}
+
+.accordion-body{
+    color: red;
+}
