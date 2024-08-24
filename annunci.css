@@ -21,3 +21,18 @@
 .accordion-button:focus{
     box-shadow: none;
 }
+
+.card{
+    width: 200px;
+    background: linear-gradient(90deg, rgba(255, 0, 0, 0.397) 18%, rgba(255, 145, 0, 1) 100%);
+}
+
+.btn-custom2{
+    background-color: var(--maroon);
+    color: white;
+}
+
+.btn-custom2:hover{
+    color: var(--maroon);
+    background-color: white;
+}
