@@ -8,11 +8,16 @@
     height: 70px;
 }
 
-.accordion-button{
+.accordion-item, .accordion-button{
     background-color: var(--lightgrey);
-    border: 1px solid var(--lightgrey);
 }
 
-.accordion-body{
-    color: red;
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    color: var(--maroon);
+    background-color: var(--lightgrey);
+}
+
+.accordion-button:focus{
+    box-shadow: none;
 }
