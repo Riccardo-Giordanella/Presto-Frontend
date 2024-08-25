@@ -181,5 +181,12 @@ footer a:hover{
 
 .img-custom{
     height: 250px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .img-custom{
+        margin-left: 300px;
+    }
 }
 /* Footer END */
