@@ -171,6 +171,7 @@ footer{
 footer a{
     text-decoration: none;
     color: black;
+    transition: 0.5s;
 }
 
 footer a:hover{
@@ -184,9 +185,9 @@ footer a:hover{
     margin-left: 50px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.9px) {
     .img-custom{
-        margin-left: 300px;
+        margin-left: 100px;
     }
 }
 /* Footer END */

@@ -4,6 +4,10 @@
     --maroon: rgb(128, 0, 0);
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .navbar {
     height: 70px;
 }
